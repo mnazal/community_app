@@ -53,12 +53,12 @@ class _DetailAppBarState extends State<DetailAppBar> {
                   children: [
                     Center(
                       child: Padding(
-                        padding: const EdgeInsets.only(top: 28.0),
+                        padding: const EdgeInsets.only(top: 20.0),
                         child: CircleAvatar(
                           radius: 30,
                           foregroundImage: Image.asset(
                             'assets/images/bg.png',
-                            fit: BoxFit.contain,
+                            fit: BoxFit.fitWidth,
                           ).image,
                         ),
                       ),
